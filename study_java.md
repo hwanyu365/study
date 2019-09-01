@@ -33,16 +33,20 @@ OOP는 클래스, 객체, 추상화, 캡슐화, 상속성, 다형성을 사용�
 
 **Overloading (중복정의)**
 - 매개변수의 유형 및 개수가 다른 같은 이름의 method를 여러개 정의할 수 있는 기법
+- Compile-time 에 method binding 결정
 
 **Overriding (재정의)**
 - 상위 클래스가 가지고 있는 method를 하위 클래스에서 내용을 재정의하는 기법
+- Run-time 에 method binding 결정
 
-# Collections
-## list, map, set
+# 자료구조
+- [자료구조](https://joooootopia.tistory.com/13)
+- [ArrayList vs LinkedList](https://www.holaxprogramming.com/2014/02/12/java-list-interface/)
+- [Enumeration vs Iterator](https://happystory.tistory.com/33)
 
-## [What is the difference between Enumeration and Iterator in java?](https://happystory.tistory.com/33)
+# Reference & GC
+- [GC & Reference](https://d2.naver.com/helloworld/329631)
 
-# [GC, Reference 종류 설명](https://d2.naver.com/helloworld/329631)
 # Memory leak 원인 및 해결방법
 
 # Thread
@@ -50,3 +54,4 @@ OOP는 클래스, 객체, 추상화, 캡슐화, 상속성, 다형성을 사용�
 
 # Design Pattern
 ## Singleton 패턴 구현 방법
+* [Singletone 패턴의 초기화 이슈](https://medium.com/@joongwon/multi-thread-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C%EC%9D%98-%EC%98%AC%EB%B0%94%EB%A5%B8-singleton-578d9511fd42)
