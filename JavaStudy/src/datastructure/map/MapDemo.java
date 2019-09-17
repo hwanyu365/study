@@ -1,4 +1,4 @@
-package map;
+package datastructure.map;
 
 public class MapDemo {
 

@@ -1,4 +1,4 @@
-package collection;
+package datastructure.collection;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
-public  class SetDemo {
+public class SetDemo {
     public static void main(String[] args) {
         List<String> srcs = new ArrayList<>();
         srcs.add("Bwerwr");
@@ -29,7 +29,7 @@ public  class SetDemo {
         set.addAll(srcs);
         Iterator<String> iterator = set.iterator();
 
-        while(iterator.hasNext()) {
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }
@@ -40,7 +40,7 @@ public  class SetDemo {
         set.addAll(srcs);
         Iterator<String> iterator = set.iterator();
 
-        while(iterator.hasNext()) {
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }
@@ -51,7 +51,7 @@ public  class SetDemo {
         set.addAll(srcs);
         Iterator<String> iterator = set.iterator();
 
-        while(iterator.hasNext()) {
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }
