@@ -60,12 +60,8 @@ Run-time에 method binding 결정|Compile-time에 method binding 결정
 * **속도가 느리다.**<br>프로그램은 개발자가 자바 언어로 구현한 자바(.java)파일은 컴파일을 통해 바이트코드 (.class)로 변환된 상태로 존재하며, 프로그램이 실행될 때 JVM이 바이트코드를 기계어로 번역하고 실행한다. 따라서 C, C++에 비해 속도가 느리나 JIT 컴파일러와 같은 기술이 적용되면서 점점 그 격차가 줄어들고 있다.
 <br><br>**※ JIT (Just-In-Time)** 컴파일러는 JRE 내부에 존재하며, 프로그램의 동일한 코드를 매번 해석하지 않고 실행할 때 컴파일하면서 해당 코드를 캐싱한다. 이후에 변경된 부분만 컴파일하고 나머지는 캐싱된 코드를 재사용함으로써 인터프리터 속도를 향상시킨다.
 
-# 자료구조
-![ClassDiagram](.img/class_diagram_java_data_structure.png)
-* [자료구조](https://joooootopia.tistory.com/13)
-* [ArrayList vs LinkedList](https://www.holaxprogramming.com/2014/02/12/java-list-interface/)
-* [Enumeration vs Iterator](https://happystory.tistory.com/33)
-* [HashMap 알고리즘](https://d2.naver.com/helloworld/831311)
+## JVM 동작 원리 및 기본 개념
+* [JVM 동작원리 및 기본개념](https://steady-snail.tistory.com/67)
 
 # 메모리
 * [메모리 구조](https://hoonmaro.tistory.com/19)
@@ -79,3 +75,10 @@ Run-time에 method binding 결정|Compile-time에 method binding 결정
 # Throwable
 * [Exception vs Error](https://stackoverflow.com/questions/912334/differences-between-exception-and-error)
 * [Checked Exception & Unchecked Exception](https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/)
+
+# 자료구조
+![ClassDiagram](.img/class_diagram_java_data_structure.png)
+* [자료구조](https://joooootopia.tistory.com/13)
+* [ArrayList vs LinkedList](https://www.holaxprogramming.com/2014/02/12/java-list-interface/)
+* [Enumeration vs Iterator](https://happystory.tistory.com/33)
+* [HashMap 알고리즘](https://d2.naver.com/helloworld/831311)
