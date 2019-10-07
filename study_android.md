@@ -110,6 +110,10 @@ Process Thread 구조<br>
 ![process_thread](https://i.imgur.com/gOLOBYs.png)
 * **HandlerTread** 는 별도의 Looper를 갖는 Thread로, 새로운 Handler와 연결하여 해당 다른 쓰레드에서 전달되는 메시지를 해당 쓰레드에서 차례대로 작업을 수행해야할 때 사용한다.
 
+# Parcelable vs Serializable
+* [Parcelable vs Serializable](https://medium.com/@limgyumin/parcelable-vs-serializable-%EC%A0%95%EB%A7%90-serializable%EC%9D%80-%EB%8A%90%EB%A6%B4%EA%B9%8C-bc2b9a7ba810)
+* [Difference between Parcelable and Serializable](https://stackoverflow.com/questions/3323074/android-difference-between-parcelable-and-serializable)
+
 # Android Architecture Patterns
 * [MVC (Model-View-Controller)](https://medium.com/upday-devs/android-architecture-patterns-part-1-model-view-controller-3baecef5f2b6)
 ![MVC](https://miro.medium.com/max/1400/0*HFP--PRKvRXsS7fd.png)

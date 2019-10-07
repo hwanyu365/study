@@ -128,7 +128,9 @@ Big O는 함수의 궁극적인 상태만 고려하기 때문에 함수의 점근적인 (asymptotic) 상태
 ## 최적 이진검색 트리
 ### [Tree & Binary tree](https://ratsgo.github.io/data%20structure&algorithm/2017/10/21/tree/)
 
-## bfs, dfs
+## BFS vs DFS
+* [깊이 우선 탐색(DFS) 과 너비 우선 탐색(BFS)](https://yunyoung1819.tistory.com/86)
+* [[그래프] DFS와 BFS 구현하기](https://mygumi.tistory.com/102)
 
 # Algorithm : Sort
 ## 교환정렬 (exchange sort)

@@ -1,7 +1,6 @@
 package datastructure.collection;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.Vector;
@@ -36,7 +35,7 @@ public class ListDemo {
         list.add("C");
         list.add("C");
 
-//        ArrayList<String> snapList = new ArrayList<>(list);
+        // ArrayList<String> snapList = new ArrayList<>(list);
         Iterator<String> iterator = list.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next() + "/" + list.size());
@@ -47,10 +46,10 @@ public class ListDemo {
         for (String item : list) {
             System.out.println(item + "/" + list.size());
         }
-//        
-//        System.out.println("----snapList----");
-//        for(String item : snapList) {
-//            System.out.println(item);
-//        }
+        //
+        // System.out.println("----snapList----");
+        // for(String item : snapList) {
+        // System.out.println(item);
+        // }
     }
 }

@@ -46,6 +46,10 @@ Overriding | Overloading
 상위클래스에 정의된 메서드를 하위 클래스에서 재정의하는 기법|매개변수의 타입 및 개수가 다른 같은 이름의 메서드를 여러개 정의할 수 있는 기법
 Run-time에 method binding 결정|Compile-time에 method binding 결정
 
+## 객체지향 설계 5원칙 SOLID
+![객체지향설계5원칙](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile28.uf.tistory.com%2Fimage%2F991A75345B43144B0E9FA3)
+<br>(출처 : https://sjh836.tistory.com/159)
+
 ## 자바의 특징
 * **객체 지향 언어이다.**<br>객체 지향 언어의 4가지 특성을 완벽하게 지원한다.
 * **이식성이 높은 언어이다.**<br>자바 언어로 개발된 프로그램은 JRE (자바 실행 환경)이 설치된 모든 운영체제에서 소스 코드 수정 없이 실행 가능하다.
@@ -61,6 +65,7 @@ Run-time에 method binding 결정|Compile-time에 method binding 결정
 * [자료구조](https://joooootopia.tistory.com/13)
 * [ArrayList vs LinkedList](https://www.holaxprogramming.com/2014/02/12/java-list-interface/)
 * [Enumeration vs Iterator](https://happystory.tistory.com/33)
+* [HashMap 알고리즘](https://d2.naver.com/helloworld/831311)
 
 # 메모리
 * [메모리 구조](https://hoonmaro.tistory.com/19)
@@ -70,3 +75,7 @@ Run-time에 method binding 결정|Compile-time에 method binding 결정
 * [GC](https://d2.naver.com/helloworld/1329)
 * [GC2](https://mirinae312.github.io/develop/2018/06/04/jvm_gc.html)
 * [GC & Reference](https://d2.naver.com/helloworld/329631)
+
+# Throwable
+* [Exception vs Error](https://stackoverflow.com/questions/912334/differences-between-exception-and-error)
+* [Checked Exception & Unchecked Exception](https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/)
