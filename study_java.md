@@ -63,6 +63,7 @@ Run-time에 method binding 결정|Compile-time에 method binding 결정
 # JVM
 ## JVM 동작 원리 및 기본 개념
 * [JVM 동작원리 및 기본개념](https://steady-snail.tistory.com/67)
+* [JVM 동작원리 및 기본개념2](https://gbsb.tistory.com/2)
 
 ## 메모리
 * [메모리 구조](https://hoonmaro.tistory.com/19)
@@ -79,7 +80,24 @@ Run-time에 method binding 결정|Compile-time에 method binding 결정
 * [ArrayList vs LinkedList](https://www.holaxprogramming.com/2014/02/12/java-list-interface/)
 * [Enumeration vs Iterator](https://happystory.tistory.com/33)
 * [HashMap 알고리즘](https://d2.naver.com/helloworld/831311)
+* [String vs StringBuilder vs StringBuffer](https://cjh5414.github.io/why-StringBuffer-and-StringBuilder-are-better-than-String/)
 
 # Throwable
-* [Exception vs Error](https://stackoverflow.com/questions/912334/differences-between-exception-and-error)
-* [Checked Exception & Unchecked Exception](https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/)
+Error|Exception
+-|-
+시스템레벨에서 발생하는 오류|개발자 구현한 로직에서 발생하는 오류
+시스템레벨의 심각한 오류이기 때문에 시스템에 변화를 주어 문제를 처리해야 하는 경우가 일반적|개발자 로직을 추가하여 에러 처리
+OutOfMemory|IOException, RuntimeException
+
+&nbsp;|Checked exception|Unchecked exception
+-|-|-
+처리여부|반드시 예외 처리 해야 함|명시적으로 예외 처리를 강제하지는 않음
+확인시점|Compile time|Run time
+예외발생 시 트랜잭션 처리|roll-back 하지 않음|roll-back 함
+대표예외|Exception 하위 클래스 중 Runtime exception을 제외한 모든 exception<br>- IOException<br>- SQLException|RuntimeException의 하위 클래스<br>- NullPointerException<br>- IllegalArgumentException<br>- IndexOutOfBoundException
+
+출처.http://www.nextree.co.kr/p3239/
+<br><br>
+![differences-between-exception-and-error](https://i.stack.imgur.com/v2NAj.png)
+
+출처.https://stackoverflow.com/questions/912334/differences-between-exception-and-error
